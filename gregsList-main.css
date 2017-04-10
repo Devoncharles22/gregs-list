@@ -59,11 +59,11 @@ button {
 	background: none;
 	border: 1px solid #DDD;
 	background-image: url(images/magnifying-glass.png);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-indent: -999999px;
-    width: 30px
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-indent: -999999px;
+	width: 30px
 }
 
 .pagination {
