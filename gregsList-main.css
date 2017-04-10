@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.topNav {
+	background-color: #DDD;
+	text-align: right;
+	padding: 10px;
+}
+
+.topNav a {
+	text-decoration: none;
+	padding: 5px;
+}
+
+h2 {
+	margin: 0;
+	float: left;
+	font-size: 1em;
+}
+
+h2 a {
+	color: black;
+	font-weight: 400;
+}
+
+.clearfix:after {
+   content:'';
+   display: block;
+   clear: both;
+}
+
+main {
+	padding: 15px 80px;
+}
+
+label {
+	display: block;
+	padding: 5px 0px;
+	font-size: .85em;
+	color: black;
+}
+
+input {
+	display: inline-block;
+	font: inherit;
+	width: 400px;
+	padding: 3px;
+}
+
+input, button {
+	border: 1px solid #DDD;
+	border-radius: 3px;
+}
+
+button {
+	font: inherit;
+	background: none;
+	border: 1px solid #DDD;
+	background-image: url(images/magnifying-glass.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -999999px;
+    width: 30px
+}
+
+.pagination {
+	border: 1px solid #DDD;
+	display: inline-block;
+	margin: 25px 0px;
+	border-radius: 3px;
+}
+
+.pagination span, .pagination a {
+	display: inline-block;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.pagination span {
+	border: 1px solid #DDD;
+	border-width: 0 1px;
+}
+
+article {
+	margin: 10px 0px;
+	color: #AAA;
+	font-size: 0.9em;
+}
+article a {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+	padding: 0px 10px;
+}
